@@ -4,5 +4,5 @@ from . import views
 
 app_anme = 'superheros'
 URLPattern = [
-    path('index/', views.index, name='index')
+    path('', views.index, name='index')
 ]
